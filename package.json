@@ -1,0 +1,48 @@
+{
+  "name": "hapi-hogan",
+  "version": "1.0.0",
+  "description": "Hogan.js templating in Hapi.js",
+
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "hogan",
+    "hoganjs",
+    "template",
+    "partials"
+  ],
+
+  "license": "MIT",
+  "homepage": "https://github.com/hapi-hogan/grant",
+
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simov/grant.git"
+  },
+
+  "dependencies": {
+    "hogan.js"        : "3.0.2"
+  },
+
+  "peerDependencies": {
+    "hapi"            : "8.x"
+  },
+
+  "devDependencies": {
+    "mocha"           : "1.21.4",
+    "should"          : "4.0.4",
+    "istanbul"        : "0.3.2",
+    "coveralls"       : "2.11.2",
+    "eslint"          : "0.14.1",
+    "request"         : "2.53.0",
+    "hapi"            : "8.2.0"
+  },
+
+  "main": "lib/hapi-hogan.js",
+
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/"
+  }
+}
