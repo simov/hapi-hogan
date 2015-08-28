@@ -1,6 +1,6 @@
 {
   "name": "hapi-hogan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hogan.js templating in Hapi.js",
 
   "keywords": [
@@ -27,7 +27,7 @@
   },
 
   "peerDependencies": {
-    "hapi"            : "8.x"
+    "hapi"            : ">=8.x.x"
   },
 
   "devDependencies": {
